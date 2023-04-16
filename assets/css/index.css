@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.list {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.list table {
+    position: relative;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.list table th {
+    border-bottom: 2px solid black;
+    width: 180px;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 6px;
+}
+
+.list table td {
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+
+.list table td button {
+    padding: 10px;
+}
+
+.list table tr {
+    transition: .5s;
+}
+
+.list table tr:hover {
+    background-color: lightgray;
+}
+
+.tambah-btn {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5rem;
+}
+
+.tambah-btn button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.tambah-btn button:hover {
+    transform: translateY(-5px);
+}
